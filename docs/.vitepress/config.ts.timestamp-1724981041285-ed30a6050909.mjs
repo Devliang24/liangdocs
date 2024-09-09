@@ -43,7 +43,8 @@ import { transformerTwoslash } from "file:///Users/fxzer/d/zerdocs/node_modules/
 var config_default = defineConfig({
   //根据环境变量决定打包路径
   // base: process.env.NODE_ENV === 'production' ? '/zerdocs/' : '/',
-  base: "/zerdocs/",
+  // base: "/zerdocs/",
+  base: "/liangdocs/",
   //配置打包获取静态资源路径
   outDir: "../dist",
   cleanUrls: true,
